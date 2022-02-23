@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Films</title>
+</head>
+<body>
+
+    <!-- Section Films -->
+    
+    <section class="films">
+        <div class="container">
+            
+            <!-- Film Form -->
+
+            <form class="film__form">
+                <input class="film__input"
+                type="text"
+                name="name"
+                placeholder="Name:"
+                autocomplete="off"
+                />
+                
+                <input class="film__input"
+                type="text"
+                name="overview"
+                placeholder="Overview:"
+                autocomplete="off"
+                />
+                
+                <input class="film__input"
+                type="text"
+                name="genres"
+                placeholder="Genres: Action"
+                autocomplete="off"
+                />
+                
+                <input class="film__input"
+                type="text"
+                name="poster"
+                placeholder="Poster: URL"
+                autocomplete="off"
+                />
+                
+                <input class="film__input"
+                type="date"
+                name="date"
+                value="2000-02-20"
+                autocomplete="off"
+                />
+                
+                <button class="film__button" type="submit">Add new film</button>
+            </form>
+            
+            <!-- Film List -->
+
+            <ul class="film__list"></ul>
+
+            <!-- Template -->
+            
+            <template id="film-template">   
+                <li class="film">
+                    
+                    <img class="film__image"
+                    src="https://image.tmdb.org/t/p/w500/xnopI5Xtky18MPhK40cZAGAOVeV.jpg" 
+                    alt="poster"
+                    width="450"
+                    height="660">
+                    
+                    <h3 class="film__title"> Shazam </h3>
+                    
+                    <p class="film__overview">"A boy is given the ability to become an adult superhero in times of need with a single magic word."</p>
+                    
+                    <time class="film__time">1553299200</time>
+
+                    <ul class="film__genres"></ul>
+                    
+                </li>
+            </template>
+
+            <template id="film-genre-template">
+                <li class="film-genre">Action</li>
+            </template>
+            
+        </div>
+        
+        
+        
+    </section>
+    
+    <script src="js/films.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

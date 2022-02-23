@@ -1,0 +1,158 @@
+.film__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 70px;
+    row-gap: 40px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.film__input {
+    font-family: 'Oleo Script', 'cursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(120, 114, 117, 0.4) 5px 5px, rgba(120, 114, 117, 0.3) 10px 10px, rgba(120, 114, 117, 0.2) 15px 15px, rgba(120, 114, 117, 0.1) 20px 20px, rgba(120, 114, 117, 0.05) 25px 25px;
+    transition: transform 0.3s ease, 
+    box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.film__input:hover {
+    background-color: mintcream;
+}
+
+.film__input:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(6px);
+}
+
+.film__button {
+    font-family: 'Oleo Script', 'cursive';
+    font-style: normal;
+    font-weight: 400;
+    max-width: 445px;
+    font-size: 24px;
+    width: 100%;
+    margin: 0;
+    border-radius: 20px;
+    box-shadow: rgba(120, 114, 117, 0.4) 5px 5px, rgba(120, 114, 117, 0.3) 10px 10px, rgba(120, 114, 117, 0.2) 15px 15px, rgba(120, 114, 117, 0.1) 20px 20px, rgba(120, 114, 117, 0.05) 25px 25px;
+    border: none;
+    color: whitesmoke;
+    background-color: green;
+    transition: transform 0.3s ease, 
+    box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.film__button:hover {
+    background-color: #339f37;
+}
+
+.film__button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(6px);
+}
+
+.film__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 60px;
+    row-gap: 60px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.film {
+    width: 450px;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(140, 139, 139);
+    border-radius: 30px;
+    box-shadow: rgba(120, 114, 117, 0.4) 5px 5px, rgba(56, 49, 53, 0.3) 10px 10px, rgba(56, 49, 53, 0.2) 15px 15px, rgba(56, 49, 53, 0.1) 20px 20px, rgba(56, 49, 53, 0.05) 25px 25px;
+    transition: transform 0.3s ease, 
+    box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.film:hover {
+    position: relative;
+    transform: scale(1.060);
+    box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.2);
+}
+
+.film__image {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 0;
+    border-radius: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: rgba(56, 49, 53, 0.4) 0px 5px, rgba(56, 49, 53, 0.3) 0px 10px, rgba(56, 49, 53, 0.2) 0px 15px, rgba(56, 49, 53, 0.1) 0px 20px, rgba(56, 49, 53, 0.05) 0px 25px;
+    
+}
+
+.film__title {
+    font-family: 'Oleo Script', 'cursive';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0 5px;  
+    color: black;
+}
+
+.film__overview {
+    font-family: 'Oleo Script', 'cursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 0 5px;  
+}
+
+.film__time {
+    font-family: 'Oleo Script', 'cursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.film__genres {
+    font-family: 'Oleo Script', 'cursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0 5px;
+    
+}
+
+
+
+
+
+
+
